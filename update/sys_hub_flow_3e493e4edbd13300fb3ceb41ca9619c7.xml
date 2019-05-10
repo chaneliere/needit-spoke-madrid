@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"Run Once_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"342af28f-5b40-475a-81c1-247d1d078d94.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"c5510dd8-63fc-4790-a921-a077607081ea.follow_up_task","label":"4.1➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"Follow-up task","type":"reference","base_type":"reference"},{"name":"4e101362-9d25-4a08-a8a7-cb7563249193.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"9da967f2-2845-40e4-8e7a-9938147e8152.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9da967f2-2845-40e4-8e7a-9938147e8152.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"4ed72211-00c9-499a-afe3-c46522cbbab8.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4ed72211-00c9-499a-afe3-c46522cbbab8.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"939c918d-fcd1-4daf-8a02-32ae45895286.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"939c918d-fcd1-4daf-8a02-32ae45895286.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"939c918d-fcd1-4daf-8a02-32ae45895286.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"5c24fda5-baa5-4dce-adfc-9217f42ddb5f.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 12:43:12</sys_created_on>
+        <sys_id>3e493e4edbd13300fb3ceb41ca9619c7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_322254_needit_sp">5f78b2cadbd13300fb3ceb41ca9619f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">5f78b2cadbd13300fb3ceb41ca9619f5</sys_scope>
+        <sys_update_name>sys_hub_flow_3e493e4edbd13300fb3ceb41ca9619c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 13:41:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e493e4edbd13300fb3ceb41ca9619c7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3e493e4edbd13300fb3ceb41ca9619c7"/>
+</record_update>
